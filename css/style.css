@@ -26,5 +26,12 @@ body{
 }
 
 .square{
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  cursor: pointer;
+  width: calc(100% / 10);
+  aspect-ratio: 1 / 1;
 }
+
