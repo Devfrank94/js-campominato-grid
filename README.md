@@ -9,4 +9,5 @@ Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro e
 ## Passaggi
 
 1. Genero struttura
-2.
+2. Creo bottone, con funzionalità di click genererà la nostra griglia (10x10) con all interno i quadrati (100).
+3. 
