@@ -35,3 +35,6 @@ body{
   aspect-ratio: 1 / 1;
 }
 
+.square.clicked{
+  background-color: rgb(96, 96, 255);
+}
