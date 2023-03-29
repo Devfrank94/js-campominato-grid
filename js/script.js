@@ -1,5 +1,6 @@
-const btnGen = document.getElementById("btn");
 
+
+const btnGen = document.getElementById("btn");
 const container = document.querySelector(".container");
 
 btnGen.addEventListener("click", function(){
@@ -10,8 +11,21 @@ btnGen.addEventListener("click", function(){
   for(let i = 0; i < 100; i++){
   const square =  createElement();
   container.append(square);
+
+  //assegno la classe clicked a square e leggo id nel console log
+  square.addEventListener("click", function(){
+    square.classList.toggle("clicked");
+    square.squareId = i + 1;
+    counterSquare = this.squareId
+    console.log(this.squareId);
+  
+  });
   }
+
+
 });
+
+
 
 //funzione genera quadrati.
 
